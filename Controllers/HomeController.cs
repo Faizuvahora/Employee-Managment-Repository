@@ -19,8 +19,9 @@ namespace Github.Controllers
 
         public IActionResult Index()
         {
-            var result = _userManager.Users.ToList();
-            return View(result);
+            //var result = _userManager.Users.ToList();
+            //return View(result);
+            return View();
         }
 
         public IActionResult Privacy()
