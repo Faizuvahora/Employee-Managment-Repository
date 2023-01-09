@@ -9,7 +9,7 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+<table class="table table-bordered table-hover table-striped"" id="MyTable">
     <thead>
         <tr>
             <th>
@@ -52,3 +52,6 @@
 }
     </tbody>
 </table>
+@section scripts{
+<script src="~/js/js.js"></script>
+}
