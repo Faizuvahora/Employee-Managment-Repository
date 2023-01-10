@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+span .text-danger .field-validation-error{
+    font-size: 8px !important;
+}
+
 .flex-column-centered {
     display: flex;
     flex-direction: column;
@@ -85,7 +89,7 @@
         padding: 2rem 1.5rem !important;
     }
 
-        .login-div .login-comps, .login-div input[type="Email"], .login-div input[type="password"] {
+        .login-div .login-comps, .login-div input[type="Email"], .login-div input[type="password"], .login-div input[type="Text"], .login-div input[type="Date"] {
             width: 100% !important;
         }
 }
